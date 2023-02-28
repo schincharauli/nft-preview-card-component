@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    padding: 24px;
+    /* margin-top: 6.250em; */
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;  
+}
+
+
+.hover-image{
+    display: none;
+}
+
+.card:hover > img{
+    display: none;
+}
+
+.card:hover .hover-icon{
+    display: flex;
+    margin: 0 auto;
+    background-color: #00FFF8;
+    height: 21.875em;
+    width: 100%;
+    border-radius: 8px;  
+    opacity: 0.5;
+}
+
+.card:hover:hover .hover-image{
+    display: flex;
+    margin: 0 auto; 
+    margin-top: 8em;
+    width: 5em;
+    height: 5em;
+    border-radius: 8px;  
+}
+
+
+h1{
+    color: white;
+    font-size: 1.375;
+}
+
+h1:hover{
+    color: #00FFF8;
+}
+
+p{
+    color: #8BACD9;
+    font-size: 1.125rem;
+}
+
+.eth, .time{
+    font-size: 1rem;
+}
+
+.eth{
+    color: #00FFF8;
+}
+
+.ETHERIUM{
+    display: flex;  
+}
+
+.clock{
+    display: flex;
+}
+
+.ETHERIUM img, .clock img {
+    width: auto;
+    height: 1.125em;
+    margin-top: 0.750em;
+    margin-right: 0.313em;
+}
+
+.prising{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    color: #8BACD9;
+}
+
+hr{
+    height: 1px;
+    background-color:#00FFF8;
+    border-color: hsl(216, 50%, 16%);
+}
+
+.avatar{
+    height: 2.063em;
+    width: 2.063em;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.second{
+    display: flex;
+    margin-top: 1.125em;
+}
+
+h4{
+    color: #8BACD9;
+}
+
+h5{
+    color: #FFFFFF;
+  
+}
+
+h5:hover{
+    color: #00FFF8;
+}
+
+h4, h5{
+    font-size: 1rem;
+    margin-left: 0.938em;
+    margin-top: 0.625em;
+}
+
+.attribution{
+    position: fixed;
+    left: 0;
+    bottom: 0.625em;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: hsl(222, 11%, 83%); 
+}
+
+
